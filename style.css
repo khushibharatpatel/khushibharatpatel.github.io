@@ -1,0 +1,210 @@
+body {
+  background-color: #86A8B2;
+}
+
+
+h1 {
+  color: #F4C6CF;
+  text-align: center;
+  font-family: "Playfair Display",serif;
+  font-size: 60px;
+  line-height: 95%;
+
+}
+
+.about{
+
+}
+
+p {
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #F6F1E8;
+  line-height: 90%;
+}
+
+:root{
+  --bg1:#9CBAC3;          /* soft top blue */
+  --bg2:#6F8F9B;          /* deeper bottom blue */
+  --cream:#F6F1E8;        /* paper highlight */
+  --white:#ffffff;
+  --pink:#F4C6CF;         /* soft regency pink */
+  --gold:#C6A75E;         /* regency gold */
+  --gold2:#B8994C;        /* antique gold */
+  --shadow: rgba(0,0,0,.14);
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display",serif;
+  background-color: #9CBAC3;
+  color: #ff5489;
+  line-height: 1.8;
+}
+
+/* Navigation bar */
+
+nav {
+  background-color: #99dbdf;
+  color: #ff5489;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 4%;
+  border-bottom: 0.3% solid #efb6c8;
+}
+
+.logo {
+  font-size: 140%;
+  font-weight: 700;
+  letter-spacing: 0.1%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 4%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ff5489;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #8f3653;
+  text-decoration: underline;
+}
+
+/* Main bio section */
+
+.hero {
+  width: 80%;
+  margin: 5% auto;
+  background-color: #ffffff;
+  border-radius: 2%;
+  box-shadow: 0 0.5% 2% rgba(199, 90, 122, 0.12);
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 25%;
+  height: auto;
+  border-radius: 2%;
+  object-fit: cover;
+}
+
+.hero-text {
+  width: 65%;
+}
+
+.hero-text h1 {
+  font-size: 300%;
+  color: #ff5489;
+  margin-bottom: 2%;
+}
+
+.hero-text p {
+  font-size: 110%;
+  margin-bottom: 2%;
+  color: #baa58b;
+  font-family: "Playfair Display",serif;
+}
+
+/* Blog / Portfolio section */
+
+.portfolio {
+  width: 80%;
+  margin: 0 auto 5%;
+  background-color: #ffffff;
+  border-radius: 2%;
+  box-shadow: 0 0.5% 2% rgba(199, 90, 122, 0.12);
+  padding: 4%;
+}
+
+.portfolio h2 {
+  color: #ff5489;
+  margin-bottom: 3%;
+  font-size: 200%;
+}
+
+.project-card {
+  background-color: #fff0f5;
+  padding: 3%;
+  border-radius: 2%;
+  border: 0.2% solid #f3c6d4;
+}
+
+.project-card h3 {
+  margin-bottom: 1%;
+  color: #baa58b;
+}
+
+.project-card p {
+  margin-bottom: 1%;
+  color: #baa58b;
+  font-family: "Playfair Display",serif;
+}
+
+.project-card a {
+  color: #ff5489;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  color: #ff5489;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 2%;
+  background-color: #baa58b;
+  color: #ff5489;
+  margin-top: 3%;
+  border-top: 0.3% solid #baa58b;
+}
+
+/* Responsive layout */
+
+@media (max-width: 700px) {
+
+  nav {
+    flex-direction: column;
+    gap: 2%;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 2%;
+  }
+
+  .hero {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero img {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+}
