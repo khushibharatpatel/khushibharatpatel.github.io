@@ -48,7 +48,10 @@ body {
   line-height: 1.8;
 }
 
-/* Navigation bar */
+.dark-font { 
+color: black;
+ }
+
 
 nav {
   background-color: #99dbdf;
@@ -83,7 +86,6 @@ nav {
   text-decoration: underline;
 }
 
-/* Main bio section */
 
 .hero {
   width: 80%;
@@ -122,12 +124,11 @@ nav {
   font-family: "Playfair Display",serif;
 }
 
-/* Blog / Portfolio section */
 
 .portfolio {
   width: 80%;
   margin: 0 auto 5%;
-  background-color: #ffffff;
+  background-color: #baa58b;
   border-radius: 2%;
   box-shadow: 0 0.5% 2% rgba(199, 90, 122, 0.12);
   padding: 4%;
@@ -168,7 +169,6 @@ nav {
   color: #ff5489;
 }
 
-/* Footer */
 
 footer {
   text-align: center;
@@ -179,7 +179,6 @@ footer {
   border-top: 0.3% solid #baa58b;
 }
 
-/* Responsive layout */
 
 @media (max-width: 700px) {
 
