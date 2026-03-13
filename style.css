@@ -87,7 +87,7 @@ nav {
 }
 
 
-.hero {
+.bio {
   width: 80%;
   margin: 5% auto;
   background-color: #ffffff;
@@ -100,24 +100,24 @@ nav {
   flex-wrap: wrap;
 }
 
-.hero img {
+.bio img {
   width: 25%;
   height: auto;
   border-radius: 2%;
   object-fit: cover;
 }
 
-.hero-text {
+.bio-text {
   width: 65%;
 }
 
-.hero-text h1 {
+.bio-text h1 {
   font-size: 300%;
   color: #ff5489;
   margin-bottom: 2%;
 }
 
-.hero-text p {
+.bio-text p {
   font-size: 110%;
   margin-bottom: 2%;
   color: #baa58b;
@@ -193,16 +193,16 @@ footer {
     gap: 2%;
   }
 
-  .hero {
+  .bio {
     text-align: center;
     justify-content: center;
   }
 
-  .hero img {
+  .bio img {
     width: 50%;
   }
 
-  .hero-text {
+  .bio-text {
     width: 100%;
   }
 
